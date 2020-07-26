@@ -1,0 +1,39 @@
+body{
+  /* background-color: #16161A; */
+}
+
+
+
+.maincontainer {
+  margin: 0 auto;
+  max-width: 1446px;
+  background-color: #16161A;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+  background-color: bisque;
+}
+
+.appbarcolor {
+  background-color: aqua;
+}
+
+.nav-container {
+  margin: auto;
+  max-width: 1110px;
+  color: #fff;
+  background-color: #16161A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+}
+.nav-container svg {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
