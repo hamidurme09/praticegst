@@ -5,7 +5,6 @@ import { IconButton, CardMedia } from "@material-ui/core";
 
 
 import TwitterIcon from "@material-ui/icons/Twitter";
-import DiscordIcon from "../../assets/group/Group27.png";
 import RedditIcon from "@material-ui/icons/Reddit";
 import TelegramIcon from "@material-ui/icons/Telegram";
 
@@ -25,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
       },
 }));
 
-const SocialIcon = () => {
+const SocialIcon = (props) => {
   const classes = useStyles();
   return (
     <div>
@@ -35,7 +34,7 @@ const SocialIcon = () => {
       <IconButton>
         <CardMedia
           className={classes.discordIcon}
-          image={DiscordIcon}
+          image={props.DiscordIcon}
           title="DiscordLogo"
         />
       </IconButton>

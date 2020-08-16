@@ -1,20 +1,26 @@
+@font-face {
+  font-family: ProximaNovaRegular;
+  src: url("./assets/Fonts/ProximaNova/ProximaNova-Regular.ttf");
+} 
+
 body{
-  /* background-color: #16161A; */
-}
-
-
-
-.maincontainer {
-  margin: 0 auto;
-  max-width: 1446px;
   background-color: #16161A;
-  color: #fff;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1110px;
-  background-color: bisque;
+  padding: 0 20px;
+  /* background-color: #16161A; */
+  color: #fff;
+}
+
+.rewardcontainer {
+  margin: 0 auto;
+  max-width: 1446px;
+  color: #fff;
 }
 
 .appbarcolor {
@@ -30,10 +36,26 @@ body{
   align-items: center;
   justify-content: space-between;
   min-height: 80px;
+  padding: 0 20px;
 }
-.nav-container svg {
+
+.routerlink {
+  text-decoration: none;
   color: #fff;
 }
-a {
-  text-decoration: none;
+
+/* =========================================
+Navbar hover effect
+========================================= */
+
+.dropdown-menu{
+  display: none;
+  z-index: 1;
 }
+
+.menu:hover .dropdown-menu{
+  display: block;
+}
+
+
+

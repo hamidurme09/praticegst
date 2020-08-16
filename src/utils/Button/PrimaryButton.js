@@ -8,6 +8,20 @@ const useStyles = makeStyles((theme) => ({
     height: 65,
     width: 250,
     borderRadius: 8,
+    "&:hover": {
+      backgroundColor: "rgb(239,69,101, 0.15)",
+    },
+    [theme.breakpoints.down("md")]: {
+      height: 55,
+      width: 200,
+      fontSize: 12
+    },
+    [theme.breakpoints.down("sm")]: {
+      margin: 'auto',
+    },
+    [theme.breakpoints.down("xs")]: {
+      width: 167
+    },
   },
 }));
 

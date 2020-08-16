@@ -3,6 +3,11 @@ import React, { Fragment } from "react";
 // MUI stuff
 import { makeStyles } from "@material-ui/core/styles";
 import PrivacyFocused from "./PrivacyFocused";
+import SpeedSecurity from "./SpeedSecurity";
+import StackGhost from "./StackGhost";
+import GithubUpdate from "./GithubUpdate";
+import GhostCreatedDistributed from "./GhostCreatedDistributed";
+import GhostReward from "./GhostReward";
 
 const useStyles = makeStyles((theme) => ({}));
 
@@ -11,9 +16,11 @@ const Home = () => {
   return (
     <Fragment>
       <PrivacyFocused />
-      <h2>section7</h2>
-      <h2>section8</h2>
-      <h2>section9</h2>
+      <SpeedSecurity />
+      <StackGhost />
+      <GithubUpdate />
+      <GhostCreatedDistributed />
+      <GhostReward />
     </Fragment>
   );
 };
